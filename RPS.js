@@ -39,7 +39,7 @@ function playGame(playerChoice) {
   }
 
   document.querySelector('p.result-match').innerHTML = result;
-  document.querySelector('p.endgame').innerHTML = `You Chose ${playerChoice}, COM Chose ${COM}`;
+  document.querySelector('p.endgame').innerHTML = `You <img class="emoji" src="assets/${playerChoice}Hand.png"> <img class="emoji" src="assets/${COM}Hand.png"> COM`;
   document.querySelector('p.result-score').innerHTML = `Wins ${score.Wins}, Losses ${score.Loses}, Ties ${score.Ties}`;
   localStorage.setItem('score', JSON.stringify(score));
 }

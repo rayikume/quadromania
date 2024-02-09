@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(24, 23, 23);
+  color: azure;
+  font-family: arial;
+  text-align: center;
+}
+
+.title {
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.emoji {
+  height: 80px;
+  width: 80px;
+}
+
+.game-button {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid azure;
+  margin: 20px;
+}
+
+.result-match, .result-score, .endgame {
+  margin: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.reset-button {
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid azure;
+  background-color: transparent;
+  color: azure;
+  height: 50px;
+  width: 150px;
+}
+
